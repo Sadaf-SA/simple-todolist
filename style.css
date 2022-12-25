@@ -1,3 +1,36 @@
 body {
-    font-size: 15pt;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:60vw;
+  height: auto;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 10px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.task{
+  margin: 10px 0px;
+  width: 65%;
+}
+
+.todbtn{
+  width: 66.5%;
+  background-color: #09AC0D;
+  color: #ffffff;
+  border: none;
+  border-radius: 1px;
+}
+
+.tasklist{
+  list-style: none;
 }
